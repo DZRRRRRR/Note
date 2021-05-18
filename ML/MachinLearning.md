@@ -22,16 +22,25 @@ $$
 - $\eta$:学习速率
 - $w,b$:可随机选定
 ## 训练过程
-1. 写一个未知参数的函数（Model）
-2. Define Loss from Training Data
-3. Optimization &nbsp; $w',b' = {\underset{w,b}{\operatorname{arg\,min}}\,L}$\
-        Gradient Descent\
-        1. pick an initial value $w^0,b^0$\
-        2. Compute\
-        &nbsp; $\eta\frac{\partial L}{\partial w}|_{w=w^0,b=b^0}\qquad  w^1\leftarrow w^0-\eta\frac{\partial L}{\partial w}|_{w=w^0}$\
-        \
-        &nbsp; $\eta\frac{\partial L}{\partial b}|_{w=w^0,b=b^0}\qquad  w^1\leftarrow w^0-\eta\frac{\partial L}{\partial w}|_{w=w^0}$\
-        3.Update $w$ iteratively
+### 写一个未知参数的函数（Model）
+$$y=b+{\overset{N}{\underset{j=1}{\sum}}w_jx_j}$$
+### Define Loss from Training Data
+$$
+Loss:\quad L=\frac{1}{N}\sum e_n  \\
+MAE:\quad e=|y-\overline{y}|\quad
+$$
+### Optimization &nbsp; $w',b' = {\underset{w,b}{\operatorname{arg\,min}}\,L}$
+#### Gradient Descent
+1. pick an initial value $w^0,b^0$\
+2. Compute\
+$$
+\eta \frac{\partial L}{\partial w}|_{w=w^0,b=b^0}\qquad  w^1\leftarrow w^0-\eta\frac{\partial L}{\partial w}|_{w=w^0}
+$$
+$$
+\eta \frac{\partial L}{\partial b}|_{w=w^0,b=b^0}\qquad  w^1\leftarrow w^0-\eta\frac{\partial L}{\partial w}|_{w=w^0}
+$$
+3. Update $w$ iteratively
+
 ## 问题
 1. 陷入局部解，没找到全局最优解
 
