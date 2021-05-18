@@ -28,9 +28,9 @@ $$
         Gradient Descent\
         1. pick an initial value $w^0,b^0$\
         2. Compute\
-        &nbsp; $\displaystyle\eta\frac{\partial L}{\partial w}|_{w=w^0,b=b^0}\qquad \displaystyle w^1\leftarrow w^0-\eta\frac{\partial L}{\partial w}|_{w=w^0}$\
+        &nbsp; $\eta\frac{\partial L}{\partial w}|_{w=w^0,b=b^0}\qquad  w^1\leftarrow w^0-\eta\frac{\partial L}{\partial w}|_{w=w^0}$\
         \
-        &nbsp; $\displaystyle\eta\frac{\partial L}{\partial b}|_{w=w^0,b=b^0}\qquad \displaystyle w^1\leftarrow w^0-\eta\frac{\partial L}{\partial w}|_{w=w^0}$\
+        &nbsp; $\eta\frac{\partial L}{\partial b}|_{w=w^0,b=b^0}\qquad  w^1\leftarrow w^0-\eta\frac{\partial L}{\partial w}|_{w=w^0}$\
         3.Update $w$ iteratively
 ## 问题
 1. 陷入局部解，没找到全局最优解
