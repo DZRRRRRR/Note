@@ -24,7 +24,7 @@ $$
 ## 训练过程
 1. 写一个未知参数的函数（Model）
 2. Define Loss from Training Data
-3. Optimization &nbsp; $w^*,b^* = {\underset{w,b}{\operatorname{arg\,min}}\,L}$\
+3. Optimization &nbsp; $w',b' = {\underset{w,b}{\operatorname{arg\,min}}\,L}$\
         Gradient Descent\
         1. pick an initial value $w^0,b^0$\
         2. Compute\
