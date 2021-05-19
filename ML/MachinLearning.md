@@ -1,16 +1,13 @@
-- [1. 机器学习](#1-机器学习)
-  - [1.1. 概念介绍](#11-概念介绍)
-    - [1.1.1. Hyperparameters(自己设定的参数)](#111-hyperparameters自己设定的参数)
-  - [1.2. 训练过程](#12-训练过程)
-    - [1.2.1. 写一个未知参数的函数（Model）](#121-写一个未知参数的函数model)
-    - [1.2.2. Define Loss from Training Data](#122-define-loss-from-training-data)
-    - [1.2.3. Optimization &nbsp;](#123-optimization-)
-      - [1.2.3.1. Gradient Descent](#1231-gradient-descent)
-  - [1.3. 问题](#13-问题)
+- [1. 概念介绍](#1-概念介绍)
+  - [1.1. Hyperparameters(自己设定的参数)](#11-hyperparameters自己设定的参数)
+- [2. 训练过程](#2-训练过程)
+  - [2.1. 写一个未知参数的函数（Model）](#21-写一个未知参数的函数model)
+  - [2.2. Define Loss from Training Data](#22-define-loss-from-training-data)
+  - [2.3. Optimization &nbsp;](#23-optimization-)
+    - [2.3.1. Gradient Descent](#231-gradient-descent)
+- [3. 问题](#3-问题)
 
-# 1. 机器学习
-
-## 1.1. 概念介绍
+# 1. 概念介绍
 
 - Regression（回归）:输出是scalar
 - Classification:分类
@@ -34,29 +31,29 @@ $$
 - Label:标签
 - Model Bias:由于模型导致的限制
   
-### 1.1.1. Hyperparameters(自己设定的参数)
+## 1.1. Hyperparameters(自己设定的参数)
 
 - $\eta$:学习速率
 - $w,b$:可随机选定
   
-## 1.2. 训练过程
+# 2. 训练过程
 
-### 1.2.1. 写一个未知参数的函数（Model）
+## 2.1. 写一个未知参数的函数（Model）
 
 $$y=b+{\overset{N}{\underset{j=1}{\sum}}w_jx_j}$$
 
-### 1.2.2. Define Loss from Training Data
+## 2.2. Define Loss from Training Data
 
 $$
     Loss:\quad L=\frac{1}{N}\sum e_n  \\
     MAE:\quad e=|y-\overline{y}|\quad
 $$
 
-### 1.2.3. Optimization &nbsp; 
+## 2.3. Optimization &nbsp; 
 
 $$w',b' = {\underset{w,b}{\operatorname{arg\,min}}\,L}$$
 
-#### 1.2.3.1. Gradient Descent
+### 2.3.1. Gradient Descent
 
 1. pick an initial value $w^0,b^0$
 2. Compute
@@ -70,6 +67,6 @@ $$w',b' = {\underset{w,b}{\operatorname{arg\,min}}\,L}$$
 
 3. Update $w$ iteratively
 
-## 1.3. 问题
+# 3. 问题
 
 1. 陷入局部解，没找到全局最优解
