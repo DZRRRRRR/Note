@@ -35,7 +35,7 @@ $$
 2. Compute
 $$
 \begin{aligned}
-\eta \frac{\partial L}{\partial w} |_ {w=w^0,b=b^0} \qquad  w^1\leftarrow w^0 - \eta\frac{\partial L}{\partial w} |_{w=w^0}\\
+\eta \frac{\partial L}{\partial w} |_ {w=w^0,b=b^0} \qquad  w^1\leftarrow w^0 - \eta\frac{\partial L}{\partial w} |_{w=w^0} \\
 \eta \frac{\partial L}{\partial b} |_ {w=w^0,b=b^0} \qquad  w^1\leftarrow w^0 - \eta\frac{\partial L}{\partial w} |_{w=w^0}
 \end{aligned}
 $$
