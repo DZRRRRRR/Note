@@ -15,6 +15,7 @@ how good a set of values is.\
 $$
 Loss:\quad L=\frac{1}{N}\sum e_n
 $$
+$$
 MAE:\quad e=|y-\overline{y}|\quad
 $$
 $$
