@@ -34,7 +34,7 @@ $$
 1. pick an initial value $w^0,b^0$
 2. Compute
 $$
-\eta \frac{\partial L}{\partial w}|_{w=w^0,b=b^0}\qquad  w^1\leftarrow w^0 - \eta\frac{\partial L}{\partial w}|_{w=w^0}\\
+\eta \frac{\partial L}{\partial w}|_{w=w^0,b=b^0}\qquad  w^1\leftarrow w^0 - \eta\frac{\partial L}{\partial w} _{w=w^0}\\
 $$
 
 $$
