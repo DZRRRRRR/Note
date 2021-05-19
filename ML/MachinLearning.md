@@ -13,8 +13,11 @@
 how good a set of values is.\
 常用的$Loss$形式
 $$
-Loss:\quad L=\frac{1}{N}\sum e_n  \\
-MAE:\quad e=|y-\overline{y}|\quad\\
+Loss:\quad L=\frac{1}{N}\sum e_n
+$$
+MAE:\quad e=|y-\overline{y}|\quad
+$$
+$$
 MSE:\quad e=(y-\overline{y})^2
 $$
 - Label:标签
