@@ -16,9 +16,11 @@
 how good a set of values is.\
 常用的$Loss$形式
 $$
+\begin{aligned}
 Loss:\quad L=\frac{1}{N}\sum e_n \\
 MAE:\quad e=|y-\overline{y}|\quad \\
 MSE:\quad e=(y-\overline{y})^2
+\end{aligned}
 $$
 - Label:标签
 - Model Bias:由于模型导致的限制
