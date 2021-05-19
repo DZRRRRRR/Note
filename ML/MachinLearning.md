@@ -16,11 +16,11 @@
 how good a set of values is.\
 常用的$Loss$形式
 $$
-\begin{aligned}
-Loss:\quad L=\frac{1}{N}\sum e_n \\
-MAE:\quad e=|y-\overline{y}|\quad \\
-MSE:\quad e=(y-\overline{y})^2
-\end{aligned}
+    \begin{aligned}
+    Loss:\quad L=\frac{1}{N}\sum e_n  \\
+    MAE:\quad e=|y-\overline{y}|\quad  \\
+    MSE:\quad e=(y-\overline{y})^2
+    \end{aligned}
 $$
 - Label:标签
 - Model Bias:由于模型导致的限制
@@ -39,8 +39,8 @@ $$y=b+{\overset{N}{\underset{j=1}{\sum}}w_jx_j}$$
 ### 1.2.2. Define Loss from Training Data
 
 $$
-Loss:\quad L=\frac{1}{N}\sum e_n  \\
-MAE:\quad e=|y-\overline{y}|\quad
+    Loss:\quad L=\frac{1}{N}\sum e_n  \\
+    MAE:\quad e=|y-\overline{y}|\quad
 $$
 
 ### 1.2.3. Optimization &nbsp; 
@@ -52,12 +52,12 @@ $$w',b' = {\underset{w,b}{\operatorname{arg\,min}}\,L}$$
 1. pick an initial value $w^0,b^0$
 2. Compute
 
-$$
-\eta\frac{\partial L}{\partial w} |_ {w=w^0,b=b^0} \qquad  w^1\leftarrow w^0 - \eta \frac{\partial L}{\partial w} |_ {w=w^0} 
-$$
-$$
-\eta\frac{\partial L}{\partial b} |_ {w=w^0,b=b^0} \qquad  w^1\leftarrow w^0 - \eta \frac{\partial L}{\partial w} |_ {w=w^0}
-$$
+    $$
+    \eta\frac{\partial L}{\partial w} |_ {w=w^0,b=b^0} \qquad  w^1\leftarrow w^0 - \eta \frac{\partial L}{\partial w} |_ {w=w^0} 
+    $$
+    $$
+    \eta\frac{\partial L}{\partial b} |_ {w=w^0,b=b^0} \qquad  w^1\leftarrow w^0 - \eta \frac{\partial L}{\partial w} |_ {w=w^0}
+    $$
 
 3. Update $w$ iteratively
 
