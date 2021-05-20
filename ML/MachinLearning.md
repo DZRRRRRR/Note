@@ -19,13 +19,16 @@
 - Weight：$w$
 - Bias：$b$
 - Loss: a funcion of parameters(w,b)\
+- One-hot Vector:向量中只有一个元素是1，其余为0
+
 how good a set of values is.\
 常用的$Loss$形式
 $$
     \begin{aligned}
     Loss:\quad L=\frac{1}{N}\sum e_n  \\
     MAE:\quad e=|y-\overline{y}|\quad  \\
-    MSE:\quad e=(y-\overline{y})^2
+    MSE:\quad e=(y-\overline{y})^2\\
+    RMSE = \sqrt{\frac{1}{N}\sum_{n=1}^N(f(x^n)-\overline{y}^n)^2}
     \end{aligned}
 $$
 - Label:标签
