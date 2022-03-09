@@ -251,9 +251,9 @@ $$
 
     - Loss
 
-      <img src="C:\Users\smart-dsp\AppData\Roaming\Typora\typora-user-images\image-20220222100859258.png" alt="image-20220222100859258" style="zoom:80%;" />
+      <img src="Open-Set Recognition.assets/image-20220222100859258-16468260579731.png" alt="image-20220222100859258" style="zoom:80%;" />
 
-      <img src="C:\Users\smart-dsp\AppData\Roaming\Typora\typora-user-images\image-20220222100911608.png" alt="image-20220222100911608" style="zoom:80%;" />
+      <img src="Open-Set Recognition.assets/image-20220222100911608-16468260611922.png" alt="image-20220222100911608" style="zoom:80%;" />
 
       其中$L_r^m$是匹配的标签和样本来训练，重构误差应该尽可能小，$L_r^{nm}$的$X^{nm}$也从样本中采样得到，但是标签错误，使得生成器的输出与标签对应的原图像差异较大，从而模拟openset的情况。
     
@@ -310,7 +310,7 @@ $$
 
     - 早期不确定性较大，这导致了较大的裕度，而随着培训的进行，不确定性变小，这导致较小的裕度。 
 
-    <img src="C:\Users\smart-dsp\AppData\Roaming\Typora\typora-user-images\image-20220222134059578.png" alt="image-20220222134059578" style="zoom:80%;" />
+    <img src="Open-Set Recognition.assets/image-20220222134059578-16468261365353.png" alt="image-20220222134059578" style="zoom:80%;" />
 
     使用输出概率的分布来，描述未知样本的不确定性
 
@@ -653,7 +653,7 @@ $$
 
     - 使用feature的范数
 
-      <img src="C:\Users\smart-dsp\AppData\Roaming\Typora\typora-user-images\image-20220303192555189.png" alt="image-20220303192555189" style="zoom:80%;" />
+      <img src="Open-Set Recognition.assets/image-20220303192555189.png" alt="image-20220303192555189" style="zoom:80%;" />
 
   - shifting transformation
 
@@ -661,7 +661,7 @@ $$
 
     ![image-20220303202354707](Open-Set Recognition.assets/image-20220303202354707.png)
 
-    ![image-20220303202404177](C:\Users\smart-dsp\AppData\Roaming\Typora\typora-user-images\image-20220303202404177.png)
+    ![image-20220303202404177](Open-Set Recognition.assets/image-20220303202404177.png)
 
 - [ ] [Learning open set network with discriminative reciprocal points](https://link.springer.com/chapter/10.1007/978-3-030-58580-8_30)[:page_facing_up:](C:\Users\smart-dsp\Zotero\storage\WLYY8HSZ\Chen 等。 - 2020 - Learning Open Set Network with Discriminative Reci.pdf)
 
