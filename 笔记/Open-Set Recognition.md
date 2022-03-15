@@ -600,6 +600,12 @@ $$
 
   - [ ] :question:未知类预测选用什么标准
 
+- 实验结果
+
+  - 以AUROC为指标
+
+    ![image-20220309224431149](Open-Set Recognition.assets/image-20220309224431149.png)
+
 - [x] [CSI: Novelty Detection via Contrastive Learning on Distributionally Shifted Instances](https://proceedings.neurips.cc/paper/2020/hash/8965f76632d7672e7d3cf29c87ecaa0c-Abstract.html)[:page_facing_up:](D:\Chu\论文整理\openset\NeurIPS-2020-csi-novelty-detection-via-contrastive-learning-on-distributionally-shifted-instances-Paper.pdf)
 
   > NIPS 2020
