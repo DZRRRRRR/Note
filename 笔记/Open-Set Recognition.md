@@ -65,7 +65,7 @@ $$
 
 - thresholding softmax
 - background-class-based modeling, using a garbage or background class
-- [ ] [Abhijit Bendale and Terrance E Boult. Towards open set deep networks. In CVPR, pages 1563–1572, 2016.](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Bendale_Towards_Open_Set_CVPR_2016_paper.html)[:page_facing_up:](C:\Users\smart-dsp\Zotero\storage\VFH6WFGT\Bendale 和 Boult - 2016 - Towards Open Set Deep Networks.pdf)
+- [x] [Abhijit Bendale and Terrance E Boult. Towards open set deep networks. In CVPR, pages 1563–1572, 2016.](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Bendale_Towards_Open_Set_CVPR_2016_paper.html)[:page_facing_up:](C:\Users\smart-dsp\Zotero\storage\VFH6WFGT\Bendale 和 Boult - 2016 - Towards Open Set Deep Networks.pdf)
 
 > Openmax
 >
