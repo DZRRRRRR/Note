@@ -11,6 +11,7 @@
 - 先验分布：通过先验信息获得的分布
 
 # 贝叶斯公式
+
 ## 密度函数形式
 1. $p(x|\theta)$:随机变量$\theta$给定某个值时，总体指标$X$的条件分布
 2. 根据参数$\theta$的先验信息确定<strong style="color : red">先验分布$\pi(\theta)$</strong>

@@ -669,6 +669,8 @@ $$
 
     ![image-20220303202404177](Open-Set Recognition.assets/image-20220303202404177.png)
 
-- [ ] [Learning open set network with discriminative reciprocal points](https://link.springer.com/chapter/10.1007/978-3-030-58580-8_30)[:page_facing_up:](C:\Users\smart-dsp\Zotero\storage\WLYY8HSZ\Chen 等。 - 2020 - Learning Open Set Network with Discriminative Reci.pdf)
+- [x] [Learning open set network with discriminative reciprocal points](https://link.springer.com/chapter/10.1007/978-3-030-58580-8_30)[:page_facing_up:](C:\Users\smart-dsp\Zotero\storage\WLYY8HSZ\Chen 等。 - 2020 - Learning Open Set Network with Discriminative Reci.pdf)
 
   > ECCV 2020
+  >
+  > Adversarial reciprocal points learning for open set recognition的前身

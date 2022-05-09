@@ -65,3 +65,6 @@
 
   <img src="Tricks.assets/image-20220323140146721.png" alt="image-20220323140146721" style="zoom:80%;" />
 
+- GAP
+
+   https://www.jianshu.com/p/510072fc9c62
