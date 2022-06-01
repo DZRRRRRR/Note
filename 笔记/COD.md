@@ -320,6 +320,12 @@
 
 <img src="COD.assets/image-20220509170332951.png" alt="image-20220509170332951" style="zoom:80%;" />
 
+有误：
+$$
+LAda(\bar F_f,F_b)_i=\sigma(F_{b_i}^{\omega\times \omega})(\bar{F_{f_i}})+\mu(F_{b_i}^{\omega \times \omega})
+$$
+
+
 - i 位置
 - μ表示均值，σ表示方差。
 - $F_i^{\omega \times \omega}$ 以 $F_i$ 为中心 大小为$\omega \times \omega$的窗口 ，$\omega=7$（默认）

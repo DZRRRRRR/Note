@@ -14,3 +14,10 @@ wget --load-cookies cookies.txt --content-disposition https://www.cityscapes-dat
 
 ```
 
+deeplabv2-resnet50
+
+<img src="分割DG.assets/image-20220516095657383.png" alt="image-20220516095657383"  />
+
+densecrf没有预期的效果
+
+cityscapes的对应关系
